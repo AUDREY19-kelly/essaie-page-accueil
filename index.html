@@ -1,0 +1,193 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord Accusoft</title>
+    <link rel="stylesheet" href="forme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="logo">
+                <h1>Accusoft</h1>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active">
+                        <a href="#"><i class="fas fa-th-large"></i> Tableau de bord</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-users"></i> Clients</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-project-diagram"></i> Projets</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-box"></i> Commandes</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-warehouse"></i> Inventaire</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-user-circle"></i> Comptes</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-tasks"></i> Tâches</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="dashboard-header animated-header">
+                <div class="menu-toggle" id="menutoggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Rechercher ici">
+                </div>
+                <div class="user-profile">
+                    <img src="https://via.placeholder.com/40" alt="Avatar utilisateur">
+                    <div class="user-info">
+                        <span>AUDREY KELLY</span>
+                        <small>Super admin</small>
+                    </div>
+                </div>
+            </header>
+
+            <section class="summary-cards">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-users"></i></div>
+                    <div class="card-content">
+                        <h2>54</h2>
+                        <p>Clients</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-project-diagram"></i></div>
+                    <div class="card-content">
+                        <h2>79</h2>
+                        <p>Projets</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <div class="card-content">
+                        <h2>124</h2>
+                        <p>Commandes</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-shopping-bag"></i></div>
+                    <div class="card-content">
+                        <h2>6k $</h2>
+                        <p>Revenus</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="recent-sections">
+                <div class="recent-projects">
+                    <h3>Projets récents</h3>
+                    <button class="see-all-btn">Voir tout <i class="fas fa-arrow-right"></i></button>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Titre du projet</th>
+                                <th>Département</th>
+                                <th>Statut</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Conception UI</td>
+                                <td>Équipe UI</td>
+                                <td><span class="status review">en revue</span></td>
+                            </tr>
+                            <tr>
+                                <td>Développement web</td>
+                                <td>Frontend</td>
+                                <td><span class="status in-progress">en cours</span></td>
+                            </tr>
+                            <tr>
+                                <td>Application Ushop</td>
+                                <td>Équipe Mobile</td>
+                                <td><span class="status pending">en attente</span></td>
+                            </tr>
+                            <tr>
+                                <td>Conception UI/UX</td>
+                                <td>Équipe UI</td>
+                                <td><span class="status review">en revue</span></td>
+                            </tr>
+                            <tr>
+                                <td>Développement web</td>
+                                <td>Frontend</td>
+                                <td><span class="status in-progress">en cours</span></td>
+                            </tr>
+                            <tr>
+                                <td>Application Ushop</td>
+                                <td>Équipe Mobile</td>
+                                <td><span class="status pending">en attente</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="new-customer">
+                    <h3>Nouveaux clients</h3>
+                    <button class="see-all-btn">Voir tout <i class="fas fa-arrow-right"></i></button>
+                    <div class="customer-list">
+                        <div class="customer-item">
+                            <img src="https://via.placeholder.com/40" alt="Avatar client">
+                            <div class="customer-info">
+                                <h4>Lewis S. Cunningham</h4>
+                                <p>Extrait CEO</p>
+                            </div>
+                            <div class="customer-actions">
+                                <i class="fas fa-phone"></i>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="customer-item">
+                            <img src="https://via.placeholder.com/40" alt="Avatar client">
+                            <div class="customer-info">
+                                <h4>Lewis S. Cunningham</h4>
+                                <p>Extrait CEO</p>
+                            </div>
+                            <div class="customer-actions">
+                                <i class="fas fa-phone"></i>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="customer-item">
+                            <img src="https://via.placeholder.com/40" alt="Avatar client">
+                            <div class="customer-info">
+                                <h4>Lewis S. Cunningham</h4>
+                                <p>Extrait CEO</p>
+                            </div>
+                            <div class="customer-actions">
+                                <i class="fas fa-phone"></i>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="customer-item">
+                            <img src="https://via.placeholder.com/40" alt="Avatar client">
+                            <div class="customer-info">
+                                <h4>Lewis S. Cunningham</h4>
+                                <p>Extrait CEO</p>
+                            </div>
+                            <div class="customer-actions">
+                                <i class="fas fa-phone"></i>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
